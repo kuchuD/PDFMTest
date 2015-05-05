@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<pdfm>
+	<FeedData>
+	     <!-- Change the partner name if you want to test with different feed name -->
+	     <partnerName>//a[@href='/partner/summary/355']</partnerName>
+	     <!-- Change the feed name if you want to test with different feed name -->
+	     <feedName>//a[@href='/datafeed/detail/722']</feedName>
+	     <sourceData>36</sourceData>
+	     <header>Description_Test</header>
+	      <!-- Change the groovy logic if you want to test with different feed name -->
+	     <groovy>${HOMEP?HOMEP:'http://l.macys.com/'+CITY.toLowerCase().replaceAll(' ','-')+'-'+STE.toLowerCase()+'?cm_mmc=macys_places-_-'+CITY.replaceAll(' ','%20')+'-_-n-_-'+STRNO}</groovy>
+	</FeedData>	 
+</pdfm>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<pdfm>
+	<partner>
+	     <partnername>test_automation_test_partner</partnername>
+		 <partnertype>domestic</partnertype>
+		 <pricingdays>futurePricingDays</pricingdays>
+		 <active>active1</active>
+		 <protocol>trgtTransportType</protocol>
+		 <server>mdc1pr010</server>
+		 <path>/data/IDM/SEM/</path>
+		 <username>scripts</username>
+		 <password>cr3at3</password>
+	</partner>	 
+</pdfm>

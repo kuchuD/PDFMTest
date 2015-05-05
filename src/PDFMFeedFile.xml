@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdfm>
+	<FeedFile>
+	     <feedType>UpcDatafeed</feedType>
+	     <!--  change the feed name before running the testcase if taking the same partnerName-->
+		 <feedName>test_automation_add_upcTest</feedName>
+		 <!-- change fileName before running the testcases but not mandatory -->
+		 <filename>test_automation_add_upcFileTest</filename>
+		 <date>payload.includeDate1</date>
+		 <protocol>FtpOutput</protocol>
+		 <serverName>mdc1pr010</serverName>
+		 <pathName>/data/IDM/SEM/</pathName>
+		 <userName>yc03808</userName>
+		 <!-- Please provide your credentials -->
+		 <password>kuchU@123</password>
+	</FeedFile>	 
+</pdfm>

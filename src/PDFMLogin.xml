@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<pdfm>
+	<user>
+		<username>yc03808</username>
+		<password>kuchU@123</password>
+		<link>//input[@value='Login' and @type='submit']</link>
+	</user>
+</pdfm>
